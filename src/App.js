@@ -1,13 +1,12 @@
 import './App.css';
-import Counter from "./components/decrement.js";
-import ComponentUseRef from "./components/useRef.js"
+import TodoList from "./components/todo";
 
 
 function App() {
     return (
-        <div>
-            <Counter/>
-            <ComponentUseRef/>
+        // centered div using bootstrap reacjs
+        <div className="container">
+            <TodoList/>
         </div>
     );
 }
